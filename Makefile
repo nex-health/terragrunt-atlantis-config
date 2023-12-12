@@ -1,4 +1,4 @@
-VERSION=1.18.0-nexhealth
+VERSION=1.18.1-nexhealth
 PATH_BUILD=build/
 FILE_COMMAND=terragrunt-atlantis-config
 FILE_ARCH=$(shell go env GOOS)_$(shell go env GOARCH)
