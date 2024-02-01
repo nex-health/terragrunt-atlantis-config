@@ -3,7 +3,7 @@ name: Build and publish container image
 on:
   # run when tagging or pushing to master
   push:
-    branches: [master]
+    branches: [master, container-build-test]
     tags: ["*"]
 
   # run on PRs against master
